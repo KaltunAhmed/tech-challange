@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from "react";
+import React from "react";
 import { Attribute } from "./createNode";
 import "./customNode.css";
 import { Handle, Position } from "reactflow";

@@ -4,13 +4,7 @@ import React from "react";
 import { useState } from "react";
 import { Attribute, CreateNode } from "./components/createNode";
 import { CustomNode } from "./components/customNode";
-import ReactFlow, {
-  Background,
-  Controls,
-  Edge,
-  Node,
-  NodeProps,
-} from "reactflow";
+import ReactFlow, { Background, Controls, Edge, Node } from "reactflow";
 import { WinnerNode } from "./components/winnerNode";
 import { Choices } from "./components/choices";
 
