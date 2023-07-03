@@ -1,0 +1,44 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: left;
+}
+input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #d1d5db;
+  margin: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.attribute-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-attribute-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-attribute-wrapper button {
+  height: 20px;
+}
+
+.attribute-score {
+  box-shadow: unset;
+}
+
+.action-button {
+  background: none;
+  border: 1px solid #d1d5db;
+  border-radius: 3px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  height: 20px;
+}

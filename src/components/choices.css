@@ -1,0 +1,15 @@
+.choice-wrapper {
+  padding: 10px;
+  margin: 10px;
+  background: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #d1d5db;
+  border-radius: 3px;
+}
+
+.choice-wrapper:hover {
+  cursor: pointer;
+  background: #ad2831;
+  color: #fff;
+}

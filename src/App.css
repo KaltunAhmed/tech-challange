@@ -1,0 +1,56 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.React-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  height: 60vh;
+  margin: 20px 10px;
+  border: solid 1px #000;
+  border-radius: 3px;
+}
+
+.choices-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calculate-winner-button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  background: #57cc99;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  margin: 20px 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.calculate-winner-button:hover {
+  background: #344e41;
+}
+
+.reset-button {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  margin: 20px 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background: #e63946;
+  color: #fff;
+  font-weight: 600;
+}

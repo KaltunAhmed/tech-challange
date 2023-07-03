@@ -1,0 +1,21 @@
+.custom-node-wrapper {
+  border: 1px solid #d1d5db;
+  border-radius: 3px;
+  background: #fff;
+  padding: 5px;
+}
+
+.divider {
+  border: 1px solid #d1d5db;
+  border-radius: 2px;
+}
+
+.custom-node-label {
+  margin: 10px;
+}
+
+.custom-node-score {
+  margin: 5px 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
